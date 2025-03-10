@@ -1,0 +1,1 @@
+// DATA TYPES IN JAVASCRIOT ARE OF TWO TYPES SUCH AS PRIMITIVE DATA TYPES("This holds just one value such as strings,numbers,boolean,null,undefined") while for COMLEX DATA TYPE OR NON PRIMITIVE DATA TYPES("This holds more than one value such as arrays and objects")
