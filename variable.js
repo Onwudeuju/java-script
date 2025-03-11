@@ -15,8 +15,8 @@ const B=90;
 
 //4. java script has a reserved key words such as if,while,for
 // When creating a variable name you use a logical variable names
-const w=67
-const weight=67
-// compound names in javascriot is denoted like this (camelCasing), this camel casing is used for account numbers and my age
+const w=67;
+const weight=67;
+// compound names in javascript is denoted like this (camelCasing), this camel casing is used for account numbers and my age
 const accountNumber = 828465;
 const myAge = 78;
