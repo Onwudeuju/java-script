@@ -1,4 +1,4 @@
-// ternary operators is more of less like an if else statement and the syntax is condition? first action: second action
+// ternary operators is more of less like an if else statement and the syntax is condition? first action: second action;
 const myNumber=-50;
 myNumber>0? console.log("Positive"): console.log("Negative");
 // 

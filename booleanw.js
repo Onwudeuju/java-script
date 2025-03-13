@@ -42,11 +42,11 @@ if (email.includes("@")) {
 } else {
   console.log("invalid email");
 }
-// write a variable called school fees and hostel fee is less greater than the admission fee if its possible allow student in if not dismiss student
+// write a variable called school fees and hostel fee it's greater than the admission fee if its possible allow student in if not dismiss student
 const schoolFees = "34000";
 const hostelFees = "23000";
 const accomodation = "90000";
-if (schoolFees == hostelFees > accomodation) {
+if (schoolFees+ hostelFees <= accomodation) {
   console.log("Allow Student");
 } else {
   console.log("Dismiss Student");
@@ -74,40 +74,40 @@ if (num1 > num2) {
 // Write a program that checks a number and displays if its positive or negative number>0
 let myNum=89;
 if(myNum > 0){
-  console.log("positive")
+  console.log("positive");
 }
 else{
   console.log("Negative");
 }
 // Write a program that determines the greater of two numbers (num1 num2)
-// let num1=90;
-// let num2=98;
-// if(num1 > num2){
-//   console.log(`num1 ${num1} is greater than num2 ${num2}`);
-// }
-// else{
-//   console.log(`num2 ${num2} is grater than num1 $`);
+let num10=90;
+let num20=98;
+if(num10 > num20){
+  console.log(`num10 ${num10} is greater than num2 ${num20}`);
+}
+else{
+  console.log(`num20 ${num20} is grater than num1 $`);
   
-// }
+}
 // const num5=75;
-// if(num5 % 2 ===){
-//   console.log(`${num3} is EVEN`);
+// if(num5 % 2===){
+//   console.log(`${num5} is EVEN`);
   
 // }
 // else{
-//   console.log(`${num3} is ODD`);
+//   console.log(`${num5} is ODD`);
   
 // }
-// const purchaseAmount=600;
-// if (purchaseAmount>100) {
-//   console.log("You have a discount");
+const purchaseAmount=600;
+if (purchaseAmount>100) {
+  console.log("You have a discount");
   
   
-// }
-// else{
-//   console.log("Buy More");
+}
+else{
+  console.log("Buy More");
   
-// }
+}
 // calculate the average score of both teams
 const averageA =(54+56+78)/3;
 const averageB = (67 + 60+ 82)/3

@@ -54,11 +54,11 @@ const sentence = author + " wrote the book" + book;
 console.log(sentence);
 // template literals are used to format variables inside of a string
 // ``
-const sentence2=`${author} wrote the book ${book}`
+const sentence2=`${author} wrote the book ${book}`;
 console.log(sentence2);
 const person = "Adam Sandler"
 const movie= "Romance Scam"
-const sentence3 = `${person.toUpperCase()} featured in the movie ${movie}`
+const sentence3 = `${person.toUpperCase()} featured in the movie ${movie}`;
 console.log(sentence3);
 const country="Canada";
 console.log(country.length);

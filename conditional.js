@@ -36,8 +36,8 @@ if (transactionAmount > 2500); {
 // write a program that displays if a word has a vowel sounds(aeiou) in it and displays consonants if not
 // const word ="CAT.toLowerCase"
 // // includes logical or
-// const scoreA=100;
-// const scoreB=100;
+const scoreA=100;
+const scoreB=100;
 // and else if ststement is for more than 2 choices you need to check
 if(scoreA>scoreB){
     console.log("A Wins");
@@ -69,11 +69,11 @@ else{
 // 18-60-adult club
 // above 60-old people club
 const userAge=45;
-if (usersAge>60) {
+if (userAge>60) {
     console.log("Old peoples club");   
 }
 else if(userAge<18){
-    console.log("yOUNG cLUB");
+    console.log("young club");
     
 }
 else{
@@ -102,9 +102,13 @@ switch(grade){
         case "e":
         console.log("Pass");
         break;
-        case "A":
-        case "a":
+        case "F":
+        case "f":
         console.log("Fail");
+        default:
+            console.log("no result");
+            
+        
         
         
 }
