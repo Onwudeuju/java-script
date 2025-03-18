@@ -42,22 +42,7 @@ if (email.includes("@")) {
 } else {
   console.log("invalid email");
 }
-// write a variable called school fees and hostel fee it's greater than the admission fee if its possible allow student in if not dismiss student
-const schoolFees = "34000";
-const hostelFees = "23000";
-const accomodation = "90000";
-if (schoolFees+ hostelFees <= accomodation) {
-  console.log("Allow Student");
-} else {
-  console.log("Dismiss Student");
-}
-// write a condition  for a laptop if the brand is (core i6) if yes log the best if not log get a new
-const laptop = "hpcorei6";
-if (laptop.includes("null")) {
-  console.log("Log the best");
-} else {
-  console.log("Get a new");
-}
+
 const exam = 50;
 if (exam >= 50) {
   console.log("you passed");
@@ -69,7 +54,7 @@ const num2 = 26;
 if (num1 > num2) {
   console.log("num1 is greater");
 } else {
-  console.log("numbver 2 is greater");
+  console.log("num2 is greater");
 }
 // Write a program that checks a number and displays if its positive or negative number>0
 let myNum=89;

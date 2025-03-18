@@ -23,7 +23,7 @@ function addTwoNumbers(n1 = 0, n2 = 0) {
   console.log(total);
 }
 addTwoNumbers(34 + 10);
-addTwoNumbers(10 + 9);
+addTwoNumbers(10 + 9);4
 // write a function that compute th dff btw two numbers
 function subtractTwoNumbers(n1, n2) {
   console.log(n1 - n2);
@@ -62,7 +62,7 @@ function digit(num) {
    num>0? console.log("Positive"): console.log("Negative");   
 }
 digit(-76)
-// function to a factory that produces a product using a return avlue
+// function to a factory that produces a product using a return value
 function sayHello(){
     return"say Hello";
 }
@@ -107,7 +107,7 @@ const divideTwoNums=function(n1,n2){
 console.log(divideTwoNums(9,3));
 // hosting invoking before and above   writing function declaration-hoisted above puts at the top of the doc
 // function decleration you can use it at any spot while a function expression you can't
-removealla("email")
+removealla("email");
 function removealla(word){
     console.log(word);
     console.log(word.replace("a",""));   
